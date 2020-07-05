@@ -1,0 +1,27 @@
+.container{
+    position: relative;
+    margin : 1em !important;
+}
+
+.card{
+    margin: 1.5em !important;
+    padding: 2em !important;
+    font-family: sans-serif;
+}
+.confirmed{
+    border-bottom: 6px solid rgb(92, 92, 255);
+    background: rgb(190, 237, 255) !important;
+}
+.recovered{
+    border-bottom: 6px solid rgb(0, 216, 36);
+    background: rgb(158, 255, 155) !important;
+}
+.deaths{
+    border-bottom: 6px solid rgb(255, 0, 0);
+    background: rgb(255, 144, 144) !important;
+}
+@media (max-width: 770px) {
+    .card{
+        margin: 2% 0 !important;
+    }
+}
